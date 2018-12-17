@@ -1,0 +1,53 @@
+let desarrolladorA = new Desarrollador('Javier', 'Martinez', '12345678D');
+let desarrolladorB = new Desarrollador('Alberto', 'Tavora', '33345678D');
+let desarrolladorC = new Desarrollador('Guillermo', 'Cano', '41345678D');
+
+let listaDesarrolladores = [desarrolladorA, desarrolladorB,desarrolladorC];
+let listaAppWebs = [];
+
+let appWebA = new AppWeb('D', 'Deportes', 'JavaScript', '500', 'FABADA-3D', desarrolladorA,undefined);
+listaAppWebs.push(appWebA);
+appWebA.id = listaAppWebs.length;
+desarrolladorA.addAppWeb(appWebA);
+let appWebB = new AppWeb('O', 'Casas', 'JavaScript', '500', 'FABADA-3D', desarrolladorA,undefined);
+listaAppWebs.push(appWebB);
+appWebB.id = listaAppWebs.length;
+desarrolladorA.addAppWeb(appWebB);
+let appWebC = new AppWeb('C', 'Deportes', 'JavaScript', '500', 'FABADA-3D', desarrolladorA,undefined);
+listaAppWebs.push(appWebC);
+appWebC.id = listaAppWebs.length;
+desarrolladorA.addAppWeb(appWebC);
+let appWebD = new AppWeb('A', 'Juegos', 'JavaScript', '500', 'FABADA-3D', desarrolladorB,undefined);
+listaAppWebs.push(appWebD);
+appWebD.id = listaAppWebs.length;
+desarrolladorB.addAppWeb(appWebD);
+let appWebE = new AppWeb('E', 'Casas', 'JavaScript', '500', 'FABADA-3D', desarrolladorB,undefined);
+listaAppWebs.push(appWebE);
+appWebE.id = listaAppWebs.length;
+desarrolladorB.addAppWeb(appWebE);
+let appWebF = new AppWeb('F', 'Juegos', 'PHP', '500', 'FABADA-3D', desarrolladorB,undefined);
+listaAppWebs.push(appWebF);
+appWebF.id = listaAppWebs.length;
+desarrolladorB.addAppWeb(appWebF);
+let appWebG = new AppWeb('G', 'Juegos', 'PHP', '500', 'FABADA-3D', desarrolladorC,undefined);
+listaAppWebs.push(appWebG);
+appWebG.id = listaAppWebs.length;
+desarrolladorC.addAppWeb(appWebG);
+let appWebH = new AppWeb('I', 'Deportes', 'JavaScript', '500', 'FABADA-3D', desarrolladorC,undefined);
+listaAppWebs.push(appWebH);
+appWebH.id = listaAppWebs.length;
+desarrolladorC.addAppWeb(appWebH);
+let appWebI = new AppWeb('H', 'Deportes', 'JavaScript', '500', 'FABADA-3D', desarrolladorC,undefined);
+listaAppWebs.push(appWebI);
+appWebI.id = listaAppWebs.length;
+desarrolladorC.addAppWeb(appWebI);
+let appWebJ = new AppWeb('J', 'Deportes', 'JavaScript', '500', 'FABADA-3D', desarrolladorA,undefined);
+listaAppWebs.push(appWebJ);
+appWebJ.id = listaAppWebs.length;
+desarrolladorA.addAppWeb(appWebJ);
+let appWebK = new AppWeb('K', 'Deportes', 'JavaScript', '500', 'FABADA-3D', desarrolladorA,undefined);
+listaAppWebs.push(appWebK);
+appWebK.id = listaAppWebs.length;
+desarrolladorA.addAppWeb(appWebK);
+
+
